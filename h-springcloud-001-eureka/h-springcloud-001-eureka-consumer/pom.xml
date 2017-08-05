@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>h-springcloud-001-eureka-client</artifactId>
-	<name>h-springcloud-001-eureka-client</name>
-	<description>eureka 注册客户端，服务提供者</description>
+	<artifactId>h-springcloud-001-eureka-consumer</artifactId>
+	<name>h-springcloud-001-eureka-consumer</name>
+	<description>eureka consumer 服务消费者，LoadBalancerClient</description>
 
 	<dependencyManagement>
 		<dependencies>
@@ -43,4 +43,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>

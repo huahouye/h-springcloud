@@ -10,7 +10,7 @@
 
 	<artifactId>h-springcloud-001-eureka-server</artifactId>
 	<name>h-springcloud-001-eureka-server</name>
-	<description>eureka 注册服务端</description>
+	<description>eureka 注册服务端，服务注册中心</description>
 
 	<dependencyManagement>
 		<dependencies>
