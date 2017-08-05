@@ -1,0 +1,8 @@
+server:
+  port: 8761
+  
+eureka:
+  client:
+    # 内建的 Eureka client 自己不要注册，因为我们要做的是 server
+    registerWithEureka: false
+    fetchRegistry: false
