@@ -8,12 +8,16 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
+	<groupId>com.huahouye.spring.cloud.eureka</groupId>
 	<artifactId>h-springcloud-001-eureka</artifactId>
 	<packaging>pom</packaging>
 	<name>eureka</name>
 	<description>eureka 服务注册于发现，eureka 服务端和客户端</description>
 	
-	<groupId>com.huahouye.spring.cloud.eureka</groupId>
+	<properties>
+        <spring-cloud-starter-parent.version>Brixton.SR7</spring-cloud-starter-parent.version>
+    </properties>
+    
 	<modules>
 		<module>h-springcloud-001-eureka-server</module>
 		<module>h-springcloud-001-eureka-client</module>
