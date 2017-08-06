@@ -22,5 +22,6 @@
 		<module>h-springcloud-001-eureka-server</module>
 		<module>h-springcloud-001-eureka-client</module>
 		<module>h-springcloud-001-eureka-consumer</module>
+		<module>h-springcloud-001-eureka-consumer-ribbon</module>
 	</modules>
 </project>
