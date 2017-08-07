@@ -27,5 +27,24 @@ public class HelloController {
 	public String sayHello() {
 		return String.format("Hello form app %s", eurekaClient.getApplication(appName).getName());
 	}
+	
+	/**
+	 * 提供给服务 Hystrix 降级 使用
+	 * 可以将服务提供者的逻辑加一些延迟
+	 * 通过HystrixCommand注解中指定的降级逻辑进行执行，因此该请求的结果返回了
+	 * fallback。这样的机制，对自身服务起到了基础的保护，同时还为异常情况提供了
+	 * 自动的服务降级切换机制
+	 * 
+	 * @return
+	 * @throws InterruptedException
+	 */
+	@RequestMapping("/hystrix")
+	@ResponseBody
+	public String hystrix() throws InterruptedException {
+		Thread.sleep(5000L);
+		String services = "Service" + eurekaClient.getApplications();
+		System.out.println(services);
+		return services;
+	}
 
 }

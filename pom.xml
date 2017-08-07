@@ -18,5 +18,6 @@
 
 
 		<module>h-springcloud-002-config</module>
+		<module>h-springcloud-003-hystrix</module>
 	</modules>
 </project>

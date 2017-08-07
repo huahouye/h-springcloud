@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: h-springcloud-003-hystrix-consumer-ribbon
+    
+server:
+  port: 8764

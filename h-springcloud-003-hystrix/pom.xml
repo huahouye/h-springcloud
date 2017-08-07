@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.huahouye.spring.cloud</groupId>
+    <artifactId>h-springcloud</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.huahouye.spring.cloud.hystrix</groupId>
+  <artifactId>h-springcloud-003-hystrix</artifactId>
+  <packaging>pom</packaging>
+  <name>spring cloud hystrix</name>
+  <description>spring cloud hystrix 服务容错保护 断路器</description>
+  <modules>
+  	<module>h-springcloud-003-hystrix-consumer-ribbon</module>
+  </modules>
+</project>
