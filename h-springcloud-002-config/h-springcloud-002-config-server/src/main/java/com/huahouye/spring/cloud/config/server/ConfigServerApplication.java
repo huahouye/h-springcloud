@@ -7,6 +7,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 /**
  * 参考 https://spring.io/guides/gs/centralized-configuration/
  * 
+ * 启动后可以访问 http://localhost:8762/env、http://localhost:8762/a-bootiful-client.properties
+ * 
  * @author huahouye@gmail.com
  *
  */

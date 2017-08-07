@@ -16,6 +16,7 @@
 
 	<modules>
 		<module>h-springcloud-002-config-server</module>
-		
+
+		<module>h-springcloud-002-config-client</module>
 	</modules>
 </project>
