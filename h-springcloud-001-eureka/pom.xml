@@ -14,10 +14,6 @@
 	<name>eureka</name>
 	<description>eureka 服务注册于发现，eureka 服务端和客户端</description>
 	
-	<properties>
-        <spring-cloud-starter-parent.version>Brixton.SR7</spring-cloud-starter-parent.version>
-    </properties>
-    
 	<modules>
 		<module>h-springcloud-001-eureka-server</module>
 		<module>h-springcloud-001-eureka-client</module>

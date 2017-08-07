@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: h-springcloud-002-config-server
+  cloud:
+    config:
+      server:
+        git:
+          # http://localhost:8762/a-bootiful-client.properties
+          uri: file:///D:/_my/work/workspace/spring-cloud-config-git-repo
+          # uri: http://git.oschina.net/didispace/config-repo-demo/
+          # username: xxx 访问Git仓库的用户名
+          # password: xxx访问Git仓库的用户密码
+
+server:
+  port: 8762
+  
